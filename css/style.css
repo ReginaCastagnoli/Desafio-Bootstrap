@@ -1,0 +1,50 @@
+/* HEADER */
+.fondoColor{
+    background-color: #bcb8b1;
+}
+.header a {
+    color: #463f3a;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.header a:hover {
+    color: #f4f3ee;
+    font-weight: bolder;
+    font-size:25px ;
+}
+/* TODOS LOS H1 */
+h1 {
+    color: #463f3a;
+    text-align: center;
+    padding: 7px;
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+    font-weight: bold;
+}
+
+h1 ol li a{
+    text-decoration: none;
+    color:#463f3a;
+}
+
+h1 ol li a:hover{
+    color: darksalmon;
+    font-weight: bolder;
+}
+
+
+/* TODOS LOS MAIN */
+main {
+    min-height: 70vh;
+    background-image: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
+}
+
+/* SUBTITULOS */
+h2 {
+
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+    color: #8a817c;
+    text-align: center;
+    margin: 40PX;
+}
