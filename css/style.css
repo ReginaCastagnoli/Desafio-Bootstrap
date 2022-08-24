@@ -73,6 +73,7 @@ h2 {
 /* FOOTER */
 .footer {
     background-color: #bcb8b1;
+    min-height: 15vh;
 }
 
 footer ul li {
@@ -91,3 +92,13 @@ footer ul {
 .footer ul li a img:hover {
     height: 120px;
 }
+
+/* html productos */
+.card-body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+ .row{
+    justify-content: space-evenly;
+ }
