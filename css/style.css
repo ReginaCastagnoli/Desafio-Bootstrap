@@ -1,7 +1,8 @@
 /* HEADER */
-.fondoColor{
+.fondoColor {
     background-color: #bcb8b1;
 }
+
 .header a {
     color: #463f3a;
     text-decoration: none;
@@ -12,8 +13,9 @@
 .header a:hover {
     color: #f4f3ee;
     font-weight: bolder;
-    font-size:25px ;
+    font-size: 25px;
 }
+
 /* TODOS LOS H1 */
 h1 {
     color: #463f3a;
@@ -23,28 +25,69 @@ h1 {
     font-weight: bold;
 }
 
-h1 ol li a{
+h1 ol li a {
     text-decoration: none;
-    color:#463f3a;
+    color: #463f3a;
 }
 
-h1 ol li a:hover{
-    color: darksalmon;
+h1 ol li a:hover {
     font-weight: bolder;
+    color: #463f3a;
+
 }
 
 
 /* TODOS LOS MAIN */
 main {
-    min-height: 70vh;
+    min-height: 100vh;
     background-image: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
 }
 
 /* SUBTITULOS */
 h2 {
-
     font-family: 'Edu VIC WA NT Beginner', cursive;
     color: #8a817c;
     text-align: center;
     margin: 40PX;
+    padding: 10px;
+}
+
+/* QUIEN SOY */
+.quien-soy {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.presentacion {
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: justify;
+    margin: 10px;
+}
+
+.negrita {
+    font-weight: bold;
+}
+
+/* FOOTER */
+.footer {
+    background-color: #bcb8b1;
+}
+
+footer ul li {
+    list-style: none;
+
+}
+
+footer ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* ANIMACIONES */
+
+.footer ul li a img:hover {
+    height: 120px;
 }
